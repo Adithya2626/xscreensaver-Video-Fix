@@ -29,7 +29,7 @@ This script provides a fix for preventing the xscreensaver application from runn
    ```bash
    ./xscreensaver-Audio-Fix.sh
    ```
-   or you can also make this script to run on startup.
+   or **you can also make this script to run on startup.**
 
    
 ## Description
