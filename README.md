@@ -1,4 +1,4 @@
-# xscreensaver Audio Fix
+# xscreensaver Video Fix
 
 This script provides a fix for preventing the xscreensaver application from running while a video is playing. It addresses an issue where the screensaver activates even though a video is playing. So this script has a fix that stops this from checking if any audio is playing. It also has a section where it detects the use of spotify and does not stop the screensaver as it is not necessary.
 
@@ -12,22 +12,22 @@ This script provides a fix for preventing the xscreensaver application from runn
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/Adithya2626/xscreensaver-Audio-Fix
+   git clone https://github.com/Adithya2626/xscreensaver-Video-Fix
    ```
 
 3. Go into the cloned directory:
    ```bash
-   cd xscreensaver-Audio-Fix
+   cd xscreensaver-Video-Fix
    ```
 
 4. Make the script executable:
    ```bash
-   chmod +x xscreensaver-Audio-Fix.sh
+   chmod +x xscreensaver-Video-Fix.sh
    ```
 
 5. Run the script:
    ```bash
-   ./xscreensaver-Audio-Fix.sh
+   ./xscreensaver-Video-Fix.sh
    ```
    or **you can also make this script to run on startup.**
 
