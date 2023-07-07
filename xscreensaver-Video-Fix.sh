@@ -39,7 +39,7 @@ while true; do
               sleep 2m
             else
               # If Spotify is closed
-              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;$spotify_status;Resuming screensaver (Spotify closed)" >>"$output_file"
+              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;$spotify_status;Resuming screensaver (Closed just now)" >>"$output_file"
               xscreensaver -nosplash >/dev/null &
               sleep 2m
               break 2
@@ -52,7 +52,7 @@ while true; do
               sleep 1m
               break
             else
-              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;$spotify_status;Resuming screensaver (Spotify closed)" >>"$output_file"
+              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;$spotify_status;Resuming screensaver (Closed just now)" >>"$output_file"
               xscreensaver -nosplash >/dev/null &
               sleep 2m
               break 2
@@ -90,7 +90,7 @@ while true; do
             # If audio is suspended or idle
             if pgrep -x "spotify" >/dev/null; then
               # If Spotify is running
-              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;Opened;Resuming screensaver" >>"$output_file"
+              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;Opened just now;Resuming screensaver" >>"$output_file"
               xscreensaver -nosplash >/dev/null &
               sleep 1m
               break 2
@@ -109,7 +109,7 @@ while true; do
               sleep 2m
             else
               # If Spotify is running
-              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;Opened;Resuming screensaver" >>"$output_file"
+              echo -e "$(date '+%d-%m-%Y');$(date '+%H:%M');$state;Opened just now;Resuming screensaver" >>"$output_file"
               xscreensaver -nosplash >/dev/null &
               sleep 1m
               break 2
