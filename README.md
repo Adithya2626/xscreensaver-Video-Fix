@@ -2,9 +2,12 @@
 
 This script provides a fix for preventing the xscreensaver application from running while a video is playing. It addresses an issue where the screensaver activates even though a video is playing. So this script has a fix that stops this from checking if any audio is playing. It also has a section where it detects the use of spotify and does not stop the screensaver as it is not necessary.
 
-## Usage
+# Note
 
-**This script has been checked in Ubuntu 22.04.**
+- **This script has been checked in Ubuntu 22.04.**
+- This project was created for personal use only.
+- I am not responsible for any damage caused by its usage, especially when used incorrectly!.
+## Usage
 
 1. Make sure you have the necessary dependencies installed:
    - `pacmd` - PulseAudio command-line interface
