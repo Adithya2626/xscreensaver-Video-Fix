@@ -36,7 +36,7 @@ This script provides a fix for preventing the xscreensaver application from runn
 
 The script continuously monitors the state of audio playback and controls the behavior of the xscreensaver application accordingly. It prevents the screensaver from activating when audio is playing and allows the screensaver to activate when no audio is playing.
 
-### Screensaver Audio Fix Logic
+### Screensaver Video Fix Logic
 
 The script follows the following logic:
 
