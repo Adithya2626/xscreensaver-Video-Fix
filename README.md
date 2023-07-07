@@ -4,7 +4,7 @@ This script provides a fix for preventing the xscreensaver application from runn
 
 ## Usage
 
-**This code has been checked in Ubuntu 22.04.**
+**This script has been checked in Ubuntu 22.04.**
 
 1. Make sure you have the necessary dependencies installed:
    - `pacmd` - PulseAudio command-line interface
@@ -29,6 +29,8 @@ This script provides a fix for preventing the xscreensaver application from runn
    ```bash
    ./xscreensaver-Audio-Fix.sh
    ```
+   or you can also make this script to run on startup.
+
    
 ## Description
 
